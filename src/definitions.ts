@@ -1,3 +1,3 @@
 export interface SmsUserConsentPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  subscribeToOTP(): Promise<string>;
 }
